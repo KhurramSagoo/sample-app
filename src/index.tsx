@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Pass from './Pass';
 import BasicButton from './BasicButton';
 import BreadCmb from './BreadCmb';
+import EmailField from './EmailField';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -13,7 +13,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <BreadCmb/>
-    <App />
+    <EmailField />
     <Pass/>
     <BasicButton/>
   </React.StrictMode>
