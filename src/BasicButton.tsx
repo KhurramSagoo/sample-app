@@ -6,6 +6,7 @@ export default function BasicButton() {
   return (
     <Stack spacing={2} direction="row">
       <Button  variant="contained">Reset Password</Button>
+      <br />
     </Stack>
   );
 }
