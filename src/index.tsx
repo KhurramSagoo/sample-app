@@ -3,13 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Pass from './Pass';
+import BasicButton from './BasicButton';
+import BreadCmb from './BreadCmb';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
+    <BreadCmb/>
     <App />
+    <Pass/>
+    <BasicButton/>
   </React.StrictMode>
 );
 
