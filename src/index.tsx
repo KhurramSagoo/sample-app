@@ -8,6 +8,7 @@ import BreadCmb from './BreadCmb';
 import EmailField from './EmailField';
 import Popov from './Popov';
 import UseS from './UseS';
+import UseEffect from './UseEffect';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -16,7 +17,7 @@ root.render(
   <React.StrictMode>
     <BreadCmb/>
     <UseS/>
-    
+    <UseEffect/>
   </React.StrictMode>
 );
 
