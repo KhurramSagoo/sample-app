@@ -7,6 +7,7 @@ import BasicButton from './BasicButton';
 import BreadCmb from './BreadCmb';
 import EmailField from './EmailField';
 import Popov from './Popov';
+import UseS from './UseS';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -14,12 +15,8 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <BreadCmb/>
-    <EmailField />
-    <br />
-    <Pass/>
-    <BasicButton/>
-    <br />
-    <Popov/>
+    <UseS/>
+    
   </React.StrictMode>
 );
 
